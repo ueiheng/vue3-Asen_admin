@@ -1,7 +1,7 @@
 <template>
     <!-- 头像UI -->
     <div class="Login-content">
-        <el-avatar :size="202" src="../../public/Avatar/photo.jpg" class="Loginavatar" />
+        <el-avatar :size="202" src="../../Avatar/photo.jpg" class="Loginavatar" />
         <!-- 登录表单UI -->
         <el-form ref="ruleFormRef" :model="ruleForm" status-icon :rules="rules" label-width="120px" class="ruleForm">
             <el-form-item label="admin" prop="pass">

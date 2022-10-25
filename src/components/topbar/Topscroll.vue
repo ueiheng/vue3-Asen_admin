@@ -3,7 +3,7 @@
         <el-page-header  style="margin-left:100px" @back = "goBack">
             <template #content>
                 <div class="flex items-center">
-                    <el-avatar :size="32" class="mr-3" src="../../../public/Avatar/photo.jpg" />
+                    <el-avatar :size="32" class="mr-3" src="../../../Avatar/photo.jpg" />
                     <span class="text-large"> Asen </span>
                     <span class="text-sm" style="color: var(--el-text-color-regular)">
                         Freelance Blog
